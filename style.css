@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier Prime, 'Segoe UI', Tahoma, Verdana, sans-serif";
+}
+
+body {
+  background-color: #b5ffc2;
+}
+
+.navbar {
+  height: 10vh;
+  background-color: #1e4d2b;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.github {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  outline: 2px solid #074046;
+  background-color: #0f828c;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
